@@ -1,3 +1,4 @@
+import { FaApple } from "react-icons/fa";
 import { Timeline } from "rsuite";
 
 import { Chrono } from "react-chrono";
@@ -23,18 +24,32 @@ const items = [
 const Content = () => {
     return (
         <>
-        <div>
-  <div>
-    <h1>Your Heading</h1>
-    <p>Your Paragraph Content</p>
-    <button>
-        <img src="" alt="Apple Logo" />Download on the App Store</button>
-    <span>&#9733;</span>
-    <span>&#9733;</span>
-    <span>&#9733;</span>
-    <span>&#9733;</span>
-    <span>&#9733;</span>
-  </div>
+<div  class = "bg-red m-10 rounded-3xl w-100 flex justify-center align-center w-50 bg-red-100 mt-20 mb-20 p-20">
+<div class = "w-50 p-4">
+        <h1 class = "font-roboto text-2xl font-normal text-black">Ahead app</h1>
+        <p class = "font-roboto text-5xl font-bold text-black mt-5 mb-10">Master your life<br/>by mastering<br/> emotions</p>
+        <div class = "w-100 flex justify-start align-center">
+          <button class = "w-50 h-auto flex justify-center align-center text-white bg-black rounded-lg p-2">
+              <FaApple class ="items-center ml-2 h-full w-10 h-10" />
+              <div class = "flex-column justify-center align-center">
+                <p class = "font-roboto font-small text-white color-yellow px-4 py-2">Download on the</p>
+                <p class = "font-roboto text-1xl font-bold text-white pb-2">App Store</p>
+              </div>
+          </button>
+          <div class = "w-50 m-2 ml-4 h-auto">
+            <p class = "w-auto h-auto">
+              <span class = "w-20 h-20 ml-1 text-yellow-500 text-3xl">&#9733;</span>
+              <span class = "w-20 h-20 ml-1 text-yellow-500 text-3xl">&#9733;</span>
+              <span class = "w-20 h-20 ml-1 text-yellow-500 text-3xl">&#9733;</span>
+              <span class = "w-20 h-20 ml-1 text-yellow-500 text-3xl">&#9733;</span>
+              <span class = "w-20 h-20 ml-1 text-yellow-500 text-3xl">&#9733;</span>
+            </p>
+            <p class = "font-roboto font-semibold text-black">100+ AppStore reviews</p></div>
+          </div>
+        </div>
+        <div class = "w-30">
+          <img class = "m-10 w-100 h-50" src="https://res.cloudinary.com/dl1iui8u1/image/upload/v1708246925/user-background-wallpaper-for-a-website-with-a-mob-upscaled_kdmaol.jpg" alt= "mobile"/>
+        </div>
 </div>
 
 <div>
