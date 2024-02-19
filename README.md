@@ -20,3 +20,7 @@ Main HTML Eelments are incorporated in this project like unordered lists, headin
 
 React Chrono.
 React Timeline
+
+## CSS Manipulation
+Using Tailwind CSS CDN. 
+CSS styling is performed on the project.
