@@ -24,3 +24,27 @@ React Timeline
 ## CSS Manipulation
 Using Tailwind CSS CDN. 
 CSS styling is performed on the project.
+
+## GSAP is used to provide animations.
+Go to gsap GreenSock Wensite and install into vscode using 
+npm install gsap
+Learn some basics and use normal or timeline animations to provide animations to your websites.
+
+Many resources and resoure providers have been used in making this project like
+
+Cloudinary (For storing images)
+VS Code (Coding Platform)
+LOGO (To make logos) https://logo.com/
+Github (For versioning) 
+React Icons Github
+Emojis
+
+Pre-requisite
+HTML 
+CSS
+JavaScript
+
+Technologies Used:
+React JS
+Tailwind CSS
+GSAP for Animations
